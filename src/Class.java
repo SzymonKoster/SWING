@@ -12,6 +12,10 @@ public class Class implements Comparator<Student> {
     private List<Student> listaStudentow;
     private int maksymalnaIloscStudentow;
 
+    ///nowe
+    public Class(){
+        this.listaStudentow = new ArrayList<Student>();
+    }
 
     public Class(String nazwaGrupy, int maksymalnaIloscStudentow) {
         this.nazwaGrupy = nazwaGrupy;
@@ -57,7 +61,6 @@ public class Class implements Comparator<Student> {
     }
 
 
-    //########################################//
 
     //dodawanie studenta do grupy
     public void addStudent(Student dodawanyStudent) {

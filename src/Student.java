@@ -10,6 +10,8 @@ public class Student implements Comparable<Student> {
     private Gender plec;
     private double iloscPunktow;
 
+    public Student() {//nowe
+    }
 
     public Student(int nrAlbumu, String imie, String nazwisko, StudentCondition stanStudenta, int rokUrodzenia, Gender plec, double iloscPunktow) {
         this.nrAlbumu = nrAlbumu;
